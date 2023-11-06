@@ -47,6 +47,7 @@ public class SliderDemo implements ChangeListener {
 	@Override
 	public void stateChanged(ChangeEvent e) {
 		label.setText("Temperature = " + slider.getValue());
+		System.out.println("Change here");
 	}
 
 }
